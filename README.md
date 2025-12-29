@@ -4,56 +4,42 @@ This project is an AI-powered web application designed to separate a song into t
 
 Features
 
--Upload any audio file (MP3/WAV)
+Upload any audio file (MP3/WAV)
 
--AI-powered music source separation using Demucs
+AI-powered music source separation using Demucs
+Automatic loudness normalization using FFmpeg
+Simple and interactive web interface using Gradio
+Agent-based workflow orchestration using LangGraph
+Download separated vocals and instrumental tracks
 
--Automatic loudness normalization using FFmpeg
 
--Simple and interactive web interface using Gradio
-
--Agent-based workflow orchestration using LangGraph
-
--Download separated vocals and instrumental tracks
-
-Tech Stack
+*Tech Stack*
 
 -Python
-
 -Demucs (AI model for music source separation)
-
 -FFmpeg (audio processing and normalization)
-
 -Gradio (frontend UI)
-
 -LangGraph (agentic workflow orchestration)
 
-How It Works
+
+*How It Works*
 
 -User uploads an audio file through the Gradio interface.
-
 -The file is processed by an AI separation agent using Demucs.
-
 -The output vocals and instrumental tracks are post-processed using FFmpeg.
-
 -Final audio files are returned to the user for download.
 
 
-Prerequisites
+*Prerequisites*
 
 -Python 3.9+
-
 -FFmpeg installed and available in PATH
-
 -Demucs installed
 
 
-Use Cases
+*Use Cases*
 
--Singing practice
-
--Music production
-
--Audio analysis
-
--Karaoke track creation
+Singing practice
+Music production
+Audio analysis
+Karaoke track creation
